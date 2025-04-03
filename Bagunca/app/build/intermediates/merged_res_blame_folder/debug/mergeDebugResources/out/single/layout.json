@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.bagunca.app-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "com.example.bagunca.app-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\app_bar_home.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\app_bar_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\activity_cadastro_page.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\activity_cadastro_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\content_home.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\content_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\activity_esqueceu_senha.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\activity_esqueceu_senha.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\nav_header_home.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\nav_header_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-mergeDebugResources-45:\\layout\\fragment_fragmenthome.xml",
+        "source": "C:\\Users\\yan53961666\\.gradle\\daemon\\8.10.2\\com.example.bagunca.app-main-48:\\layout\\fragment_fragmenthome.xml"
+    }
+]
