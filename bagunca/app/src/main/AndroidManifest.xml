@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,16 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bagunca"
         tools:targetApi="31">
-        <activity
-            android:name=".Home2Activity"
-            android:exported="false"
-            android:label="@string/title_activity_home2"
-            android:theme="@style/Theme.Bagunca.NoActionBar" />
-        <activity
-            android:name="fragment.Home"
-            android:exported="false"
-            android:label="@string/title_activity_home"
-            android:theme="@style/Theme.Bagunca.NoActionBar" />
         <activity
             android:name=".EsqueceuSenha"
             android:exported="false" />

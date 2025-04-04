@@ -55,30 +55,44 @@
                 android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
-        <Button
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="30dp"
-            android:backgroundTint="#524275"
+            android:backgroundTint="@color/azulm"
             android:text="LOGIN"
-            android:textColorLink="#000016" />
+            app:cornerRadius="8dp"
+            app:rippleColor="@color/azulm" />
+
+        <Button
+            android:id="@+id/btCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/azulm"
+            android:text="FAZER CADASTRO"
+            android:textColorLink="#000016"
+            app:cornerRadius="8dp"
+            app:rippleColor="@color/azulm" />
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:text="=" />
+
+        <TextView
+            android:id="@+id/esqueceuSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Esqueceu sua senha? Recuperar"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            android:textColor="@color/black"
-            android:gravity="center"
-            android:clickable="true"
-            android:focusable="true"
-            android:onClick="esquecerSenha"/>
+            android:textAlignment="center" />
 
 
     </LinearLayout>
