@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexaoMysql {
-    private static final String URL = "jdbc:mysql://10.160.215.10:3307/bagunca_mobile";
+    private static final String URL = "jdbc:mysql://10.160.215.19:3307/bagunca_mobile";
     private static final String USUARIO = "senac";
     private static final String SENHA = "123";
 

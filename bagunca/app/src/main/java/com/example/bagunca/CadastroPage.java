@@ -72,6 +72,9 @@ public class CadastroPage extends AppCompatActivity {
                         return;
                     } else {
                         Toast.makeText(getApplicationContext(), "Cadastro realizado com sucesso!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(CadastroPage.this, MainActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
 
                 } catch (SQLException e) {

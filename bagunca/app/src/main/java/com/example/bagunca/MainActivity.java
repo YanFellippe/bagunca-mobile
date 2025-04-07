@@ -56,10 +56,10 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (verificarLogin(emailDigitado, senhaDigitada)) {
-                    //Toast.makeText(getApplicationContext(), "Login realizado com sucesso!", Toast.LENGTH_SHORT).show();
-                    //Intent intent = new Intent(MainActivity.this, DashboardActivity.class);
-                    //startActivity(intent);
-                    //finish();
+                    Toast.makeText(getApplicationContext(), "Login realizado com sucesso!", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, PaginaWeb.class);
+                    startActivity(intent);
+                    finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "Usuário ou senha incorretos!", Toast.LENGTH_SHORT).show();
                 }
