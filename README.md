@@ -23,3 +23,11 @@ git clone https://github.com/seu-usuario/bagunca-mobile.git
 # Abra o Android Studio e importe o projeto.
 # Configure as credenciais do banco de dados MySQL no arquivo de conexão.
 # Compile e execute o aplicativo em um emulador ou dispositivo físico.
+```
+
+## 🧑‍💻 Desenvolvedores
+- Yan Fellippe (Gerente do Projeto e Desenvolvodor Fullstack)
+- Ruan Lobo (Subgerente e Desenvolvodor Fullstack)
+- Talisson Leandro (Desenvolvodor Fullstack e Designer)
+- Douglas Araújo (Desenvolvodor Fullstack e Designer)
+- Raphael Melo (Desenvolvodor Fullstack e Designer)
