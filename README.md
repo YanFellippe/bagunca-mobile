@@ -2,12 +2,17 @@
 
 **Bagunça Mobile** é um aplicativo desenvolvido em **Java** no **Android Studio**, inspirado no Trello, projetado para auxiliar na organização de tarefas e projetos pessoais. Ele permite criar, gerenciar e mover quadros e cartões interativos de forma intuitiva, utilizando a abordagem **Kanban**.
 
-## 📌 Recursos
+### INFORME IMPORTANTE
+- Para rodar o projeto em sua máquina é necessário alterar o IP dentro do arquivo 'ConexãoBanco.java' para o seu IPV4 local.
+- Fazer o import do banco de dados projeto que está na pasta 'database'.
+
+## 📌 Funcionalidades
 - Cadastro e login de usuários
 - Criação de projetos pessoais
 - Gerenciamento de quadros e cartões
 - Suporte a **drag and drop** para movimentação de cartões
 - Interface intuitiva e responsiva
+- Web View para portar a plataforma web do Bagunça em dispositivos mobile dentro do aplicativo
 
 ## 🛠️ Tecnologias Utilizadas
 - **Java** - Linguagem principal do desenvolvimento
