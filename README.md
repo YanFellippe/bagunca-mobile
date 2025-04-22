@@ -13,7 +13,6 @@
 - **Java** - Linguagem principal do desenvolvimento
 - **Android Studio** - IDE utilizada
 - **MySQL** - Banco de dados para armazenamento das informações
-- **Firebase Authentication** - Para gerenciamento de login e autenticação
 
 ## 🚀 Como Rodar o Projeto
 ```bash
