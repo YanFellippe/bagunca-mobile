@@ -25,8 +25,8 @@ git clone https://github.com/seu-usuario/bagunca-mobile.git
 ```
 
 ## 🧑‍💻 Desenvolvedores
-- Yan Fellippe (Gerente do Projeto e Desenvolvodor Fullstack)
-- Ruan Lobo (Subgerente e Desenvolvodor Fullstack)
-- Talisson Leandro (Desenvolvodor Fullstack e Designer)
-- Douglas Araújo (Desenvolvodor Fullstack e Designer)
-- Raphael Melo (Desenvolvodor Fullstack e Designer)
+- [Yan Fellippe](https://github.com/YanFellippe) - Gerente do Projeto e Desenvolvodor Fullstack
+- [Ruan Lobo](https://github.com/ruandd9) - Subgerente e Desenvolvodor Fullstack
+- [Talisson Leandro](https://github.com/talissonleandro) - Desenvolvodor Fullstack e Designer
+- [Douglas Araújo](https://github.com/douglasarj) - Desenvolvodor Fullstack e Designer
+- [Raphael Melo](https://github.com/dragonkiri) - Desenvolvodor Fullstack e Designer
