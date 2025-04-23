@@ -37,15 +37,6 @@ Essa versão mobile também conta com uma <strong>Web View</strong>, que permite
 
 ---
 
-<h2 align="center">💻 Tecnologias Utilizadas</h2>
-
-- 📱 <strong>Java</strong> – Linguagem principal do projeto  
-- 🧰 <strong>Android Studio</strong> – IDE de desenvolvimento  
-- 🗃️ <strong>MySQL</strong> – Banco de dados utilizado  
-- 🌐 <strong>Web View</strong> – Para portar a versão web da plataforma  
-
----
-
 <h2 align="center">🎯 Público-Alvo</h2>
 
 O **Bagunça** foi idealizado especialmente para jovens universitários que:
