@@ -22,10 +22,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class EsqueceuSenha extends AppCompatActivity {
-
     TextInputEditText user, email;
     Button btEnviar;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,17 +35,16 @@ public class EsqueceuSenha extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        //Validação dos IDs
         user = findViewById(R.id.user);
         email = findViewById(R.id.email);
         btEnviar = findViewById(R.id.btEnviar);
-
+        //Função para enviar recuperação de senha
         btEnviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String userDigitado = user.getText().toString().trim();
                 String emailDigitada = email.getText().toString().trim();
-
                 if (userDigitado.isEmpty() || emailDigitada.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
                     return;
@@ -64,28 +61,23 @@ public class EsqueceuSenha extends AppCompatActivity {
                 }
             }
         });
-
     }
-
+    //Função para verificar login
     private boolean verificarLogin(String email, String senha) {
         Connection conexao = ConexaoMysql.conectar();
         if (conexao == null) {
             return false;
         }
-
         String sql = "SELECT * FROM login_usuario WHERE email = ? AND senha = ?";
         try {
             PreparedStatement stmt = conexao.prepareStatement(sql);
             stmt.setString(1, email);
             stmt.setString(2, senha);
-
             ResultSet rs = stmt.executeQuery();
             boolean loginValido = rs.next();
-
             rs.close();
             stmt.close();
             ConexaoMysql.fecharConexao(conexao);
-
             return loginValido;
         } catch (SQLException e) {
             System.out.println("Erro ao verificar login: " + e.getMessage());

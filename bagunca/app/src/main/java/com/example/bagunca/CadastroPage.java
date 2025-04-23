@@ -28,7 +28,6 @@ public class CadastroPage extends AppCompatActivity {
     TextView txtLogin;
     TextInputEditText email, senha, usuario;
     Button btCadastro;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,20 +39,19 @@ public class CadastroPage extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        //Validação dos IDs
         email = findViewById(R.id.email);
         senha = findViewById(R.id.senha);
         usuario = findViewById(R.id.usuario);
         btCadastro = findViewById(R.id.btCadastro);
         txtLogin = findViewById(R.id.txtLogin);
-
+        //Função cadastro
         btCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String emailDigitado = email.getText().toString().trim();
                 String senhaDigitada = senha.getText().toString().trim();
                 String usuarioDigitado = usuario.getText().toString().trim();
-
                 try {
                     Connection con = ConexaoMysql.conectar();
                     String sql = "INSERT INTO login_usuario(usuario, email, senha) VALUES(?, ?, ?);";
@@ -63,10 +61,8 @@ public class CadastroPage extends AppCompatActivity {
                     stmt.setString(3, senha.getText().toString());
                     stmt.execute();
                     Toast.makeText(getApplicationContext(), "Cadastro efetuado com sucesso!", LENGTH_LONG).show();
-
                     con.close();
                     stmt.close();
-
                     if (emailDigitado.isEmpty() || senhaDigitada.isEmpty() || usuarioDigitado.isEmpty()) {
                         Toast.makeText(getApplicationContext(), "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
                         return;
@@ -76,20 +72,19 @@ public class CadastroPage extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     }
-
                 } catch (SQLException e) {
                     throw new RuntimeException(e);
                 }
             }
         });
-
+        //Redirecionar à página de login
         txtLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
-                        Toast.makeText(getApplicationContext(), "Email enviado para recuperação de senha!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Redirecionando", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(CadastroPage.this, MainActivity.class);
                         startActivity(intent);
                         finish();
@@ -98,26 +93,22 @@ public class CadastroPage extends AppCompatActivity {
             }
         });
     }
-
+    // Função para validar o email dos usuários
     private boolean verificarLogin(String email, String senha) {
         Connection conexao = ConexaoMysql.conectar();
         if (conexao == null) {
             return false;
         }
-
         String sql = "SELECT * FROM login_usuario WHERE email = ? AND senha = ?";
         try {
             PreparedStatement stmt = conexao.prepareStatement(sql);
             stmt.setString(1, email);
             stmt.setString(2, senha);
-
             ResultSet rs = stmt.executeQuery();
             boolean loginValido = rs.next();
-
             rs.close();
             stmt.close();
             ConexaoMysql.fecharConexao(conexao);
-
             return loginValido;
         } catch (SQLException e) {
             System.out.println("Erro ao verificar login: " + e.getMessage());

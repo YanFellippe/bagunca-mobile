@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     EditText usuario, senha;
     TextView esqueceuSenha;
     Button btLogin, btCadastro;
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,24 +36,22 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        //Validação dos IDs
         usuario = findViewById(R.id.usuario);
         senha = findViewById(R.id.senha);
         btLogin = findViewById(R.id.btLogin);
         btCadastro = findViewById(R.id.btCadastro);
         esqueceuSenha = findViewById(R.id.esqueceuSenha);
-
+        //Função login
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String emailDigitado = usuario.getText().toString().trim();
                 String senhaDigitada = senha.getText().toString().trim();
-
                 if (emailDigitado.isEmpty() || senhaDigitada.isEmpty()) {
                     Toast.makeText(getApplicationContext(), "Preencha todos os campos!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
                 if (verificarLogin(emailDigitado, senhaDigitada)) {
                     Toast.makeText(getApplicationContext(), "Login realizado com sucesso!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(MainActivity.this, PaginaWeb.class);
@@ -65,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
+        //Função cadastro (resirecionar à página de cadastro)
         btCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 }, 0500);
             }
         });
-
+        //Texto Esqueceu senha para levar a tela de recuperação
         esqueceuSenha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,17 +84,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
-
-
-
+    //Função para validar o login
     private boolean verificarLogin(String email, String senha) {
         Connection conexao = ConexaoMysql.conectar();
         if (conexao == null) {
             return false;
         }
-
         String sql = "SELECT * FROM login_usuario WHERE email = ? AND senha = ?";
         try {
             PreparedStatement stmt = conexao.prepareStatement(sql);

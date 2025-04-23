@@ -12,7 +12,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class PaginaWeb extends AppCompatActivity {
-
     WebView baguncaWeb;
 
     @SuppressLint("MissingInflatedId")
@@ -26,10 +25,11 @@ public class PaginaWeb extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
+        //Validação do ID
         baguncaWeb = findViewById(R.id.baguncaWeb);
+        //Configuração para visualização do site dentro do APP
         baguncaWeb.getSettings().setJavaScriptEnabled(true);
         baguncaWeb.setWebViewClient(new WebViewClient());
-        baguncaWeb.loadUrl("hhttps://github.com/YanFellippe");
+        baguncaWeb.loadUrl("https://yanfellippe.github.io/bagunca-web/");
     }
 }

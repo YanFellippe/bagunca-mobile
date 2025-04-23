@@ -7,10 +7,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexaoMysql {
-    private static final String URL = "jdbc:mysql://10.160.215.19:3307/bagunca_mobile";
+    //URL para conexão (ALTERAR IP e LOCALHOST)
+    private static final String URL = "jdbc:mysql://10.160.215.31:3307/bagunca_mobile";
     private static final String USUARIO = "senac";
     private static final String SENHA = "123";
-
+    //Função para conecar ao banco do projeto
     public static Connection conectar() {
         try {
             try {
@@ -25,10 +26,9 @@ public class ConexaoMysql {
         } catch (SQLException e) {
             System.out.println("Erro ao conectar: " + e.getMessage());
             return null;
-
         }
     }
-
+    //Função para alerta de erro ao conectar ao banco
     public static void fecharConexao(Connection conexao) {
         try {
             if (conexao != null) {
