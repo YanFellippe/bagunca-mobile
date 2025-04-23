@@ -46,6 +46,38 @@ Essa versão mobile também conta com uma <strong>Web View</strong>, que permite
 
 ---
 
+<h2 align="center">🎯 Público-Alvo</h2>
+
+O **Bagunça** foi idealizado especialmente para jovens universitários que:
+
+- 👥 Trabalham em projetos em grupo para disciplinas ou atividades extracurriculares.
+- ⚖️ Precisam gerenciar múltiplas tarefas, equilibrando estudos, trabalho e vida pessoal.
+- 🔍 Buscam uma ferramenta simples, acessível e visual para organizar suas responsabilidades.
+
+---
+
+<h2 align="center">🏫 Sobre o SENAC-DF</h2>
+
+Desenvolvido no SENAC-DF, o **Bagunça** reflete o compromisso da instituição em formar profissionais capacitados, promovendo o aprendizado prático e o desenvolvimento de soluções inovadoras voltadas para as necessidades reais do mercado.
+
+---
+
+<h2 align="center">💻 Tecnologias Utilizadas</h2>
+
+<p align="center">
+  <a href="https://shields.io"><img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white" alt="Java"></a>
+  <a href="https://shields.io"><img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white" alt="Android Studio"></a>
+  <a href="https://shields.io"><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"></a>
+  <a href="https://shields.io"><img src="https://img.shields.io/badge/WebView-4285F4?style=flat-square&logo=google-chrome&logoColor=white" alt="WebView"></a>
+</p>
+
+- ☕ **Java**: Linguagem principal usada para o desenvolvimento do app.
+- 🛠️ **Android Studio**: Ambiente de desenvolvimento oficial para aplicativos Android.
+- 🗃️ **MySQL**: Banco de dados utilizado para armazenar informações dos usuários e projetos.
+- 🌐 **WebView**: Componente nativo para exibir a versão web da plataforma dentro do app.
+
+---
+
 <h2 align="center">🚀 Como Rodar o Projeto</h2>
 
 ```bash
@@ -61,9 +93,39 @@ git clone https://github.com/seu-usuario/bagunca-mobile.git
 # Compile e execute o app no emulador ou em um dispositivo físico.
 ```
 
-<h2 align="center">🧑‍💻 Desenvolvedores</h2>
-- [Yan Fellippe](https://github.com/YanFellippe) - Gerente do Projeto e Desenvolvedor Fullstack
-- [Ruan Lobo](https://github.com/ruandd9) - Subgerente e Desenvolvedor Fullstack
-- [Talisson Leandro](https://github.com/talissonleandro) - Desenvolvedor Fullstack e Designer
-- [Douglas Araújo](https://github.com/douglasarj) - Desenvolvedor Fullstack e Designer
-- [Raphael Melo](https://github.com/dragonkiri) - Desenvolvedor Fullstack e Designer
+---
+
+<h2 align="center">🤝 Como Contribuir</h2>
+
+Quer ajudar a tornar o **Bagunça** ainda melhor? Siga os passos abaixo!
+
+1. 🍴 Faça um fork deste repositório.
+2. 🌿 Crie uma branch para suas alterações: `git checkout -b minha-contribuicao`
+3. 💾 Implemente suas melhorias e faça commit: `git commit -m 'Adicionando minha contribuição'`
+4. 🚀 Envie para o repositório remoto: `git push origin minha-contribuicao`
+5. 📬 Abra um Pull Request para revisão.
+
+---
+
+<h2 align="center">👥 Contribuidores</h2>
+Conheça os talentos por trás do **Bagunça**!
+
+<a url="https://github.com/YanFellippe">**Yan Fellippe** - Gerente do Projeto e Desenvolvedor Fullstack</a>
+<a url="https://github.com/ruandd9">**Ruan Lobo** - Subgerente e Desenvolvedor Fullstack</a>
+<a url="https://github.com/talissonleandro">**Talisson Leandro** - Desenvolvedor Fullstack e Designer</a>
+<a url="https://github.com/douglasarj">**Douglas Araújo** - Desenvolvedor Fullstack e Designer</a>
+<a url="https://github.com/dragonkiri">**Raphael Melo** - Desenvolvedor Fullstack e Designer</a>
+
+---
+
+<h2 align="center">ℹ️ Sobre</h2>
+
+O **Bagunça** foi desenvolvido como parte do Projeto Integrador do SENAC-DF, uma iniciativa que incentiva os alunos a aplicar conhecimentos técnicos em projetos práticos e inovadores. Este projeto destaca o compromisso do SENAC em preparar jovens para o mercado de trabalho, desenvolvendo soluções que atendem às demandas reais de organização e produtividade, especialmente para universitários que precisam gerenciar tarefas em equipe.
+
+---
+
+<h1 align="center">⭐ Obrigado por conhecer o Bagunça! ⭐</h1>
+
+<p align="center">
+  Junte-se a nós e transforme a organização de tarefas em algo simples e colaborativo para jovens universitários! 🚀
+</p>
