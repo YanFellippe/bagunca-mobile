@@ -100,7 +100,8 @@ Quer ajudar a tornar o **Bagunça** ainda melhor? Siga os passos abaixo!
 
 <h2 align="center">👥 Contribuidores</h2>
 Conheça os talentos por trás do **Bagunça**!
-<li src="https://github.com/YanFellippe"><strong>Yan Fellippe</strong>Yan Fellippe - Gerente do Projeto e Desenvolvedor Fullstack</li>
+
+<li><strong src="https://github.com/YanFellippe">Yan Fellippe</strong> - Gerente do Projeto e Desenvolvedor Fullstack</li>
 <li src="https://github.com/ruandd9"><strong>Ruan Lobo</strong> - Subgerente e Desenvolvedor Fullstack</li>
 <li src="https://github.com/talissonleandro"><strong>Talisson Leandro</strong> - Desenvolvedor Fullstack e Designer</a></li>
 <li src="https://github.com/douglasarj"><strong>Douglas Araújo</strong> - Desenvolvedor Fullstack e Designer</a></li>
