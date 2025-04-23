@@ -100,11 +100,11 @@ Quer ajudar a tornar o **Bagunça** ainda melhor? Siga os passos abaixo!
 
 <h2 align="center">👥 Contribuidores</h2>
 Conheça os talentos por trás do **Bagunça**!
-<li><a url="https://github.com/YanFellippe">**Yan Fellippe** - Gerente do Projeto e Desenvolvedor Fullstack</a></li>
-<li><a url="https://github.com/ruandd9">**Ruan Lobo** - Subgerente e Desenvolvedor Fullstack</a></li>
-<li><a url="https://github.com/talissonleandro">**Talisson Leandro** - Desenvolvedor Fullstack e Designer</a></li>
-<li><a url="https://github.com/douglasarj">**Douglas Araújo** - Desenvolvedor Fullstack e Designer</a></li>
-<li><a url="https://github.com/dragonkiri">**Raphael Melo** - Desenvolvedor Fullstack e Designer</a></li>
+<li src="https://github.com/YanFellippe"><strong>Yan Fellippe</strong>Yan Fellippe - Gerente do Projeto e Desenvolvedor Fullstack</li>
+<li src="https://github.com/ruandd9"><strong>Ruan Lobo</strong> - Subgerente e Desenvolvedor Fullstack</li>
+<li src="https://github.com/talissonleandro"><strong>Talisson Leandro</strong> - Desenvolvedor Fullstack e Designer</a></li>
+<li src="https://github.com/douglasarj"><strong>Douglas Araújo</strong> - Desenvolvedor Fullstack e Designer</a></li>
+<li src="https://github.com/dragonkiri"><strong>Raphael Melo</strong> - Desenvolvedor Fullstack e Designer</a></li>
 
 ---
 
