@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Bagunca"
 include(":app")
+
  
