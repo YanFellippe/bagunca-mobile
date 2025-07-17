@@ -30,7 +30,7 @@ public class PaginaWeb extends AppCompatActivity {
         //Configuração para visualização do site dentro do APP
         baguncaWeb.getSettings().setJavaScriptEnabled(true);
         baguncaWeb.setWebViewClient(new WebViewClient());
-        baguncaWeb.loadUrl("https://ruandd9.github.io/webagunca/");
+        baguncaWeb.loadUrl("https://ruandd9.github.io/webagunca/public/board-page.html");
 
     }
 }
